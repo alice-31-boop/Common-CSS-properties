@@ -1,0 +1,40 @@
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(249, 255, 194);
+}
+
+.table_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.property {
+    border: 2px solid cornflowerblue;
+
+}
+
+/* let's make a border later. for now i can work on the img part */
+
+.property thead th {
+    border-bottom: 1px solid cornflowerblue;
+    background-color: rgb(162, 178, 231);
+}
+
+.property tbody tr td {
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 300px;
+    height: auto;
+}
